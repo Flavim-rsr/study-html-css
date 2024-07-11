@@ -38,19 +38,31 @@ body {
     background-size: contain;
 }
 
+.container__caixa {
+    /* Quando colocamos dois valores nos referimos a primeiro valor topo/baixo e segundo valor direita/esquerda */
+    margin: 0 6em;
+}
+
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
 }
 
+.container__imagem {
+    /* Quando adicionamos quatro valores, funciona no sentido horario (primeiro valor parte de cima, segundo lado direito, terceiro em baixo, quarto lado esquerdo) */
+    margin: 1em 0 2em 0;
+}
+
 .container__botao {
     /* Medida 1em é igual ao tamanho da fonte */
+    /* Margin bottom é a margin de baixo */
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao__secundario {
