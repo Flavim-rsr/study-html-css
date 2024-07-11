@@ -18,6 +18,13 @@ body {
     color: var(--branco-principal);
 }
 
+.container {
+    /* Grid separa os elementos da tela (um do lado do outro, em baixo), o padrão é um do lado do outro (por linha) */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
 /* Seletor . é para as classes do html */
 .principal {
     /* Usamos imagem no css caso for apenas ilustrativa, caso precise de alguma explicação ao usuario, utilizamos a tag image no html */
@@ -26,6 +33,16 @@ body {
     background-size: contain;
 }
 
-.container {
-    height: 100vh;
+.container__botao {
+    /* Medida 1em é igual ao tamanho da fonte */
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
