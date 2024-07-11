@@ -18,3 +18,14 @@ body {
     color: var(--branco-principal);
 }
 
+/* Seletor . é para as classes do html */
+.principal {
+    /* Usamos imagem no css caso for apenas ilustrativa, caso precise de alguma explicação ao usuario, utilizamos a tag image no html */
+    background-image: url("Img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
