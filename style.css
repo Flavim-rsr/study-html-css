@@ -98,3 +98,15 @@ body {
 .descrição__texto {
     color: var(--cinza-secundario);
 }
+
+/*Terceira section*/
+
+.container__descrição {
+    padding: 2em;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
