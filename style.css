@@ -1,6 +1,6 @@
 /* Seletor root modifica em todo o arquivo css */
 :root {
-    /*criando variaveis no css*/
+    /* Criando variaveis no css */
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
@@ -77,7 +77,7 @@ body {
     color: var(--cinza-secundario);
 }
 
-/*Segunda section*/
+/* Segunda section */
 
 .secundario {
     align-items: center;
@@ -99,7 +99,7 @@ body {
     color: var(--cinza-secundario);
 }
 
-/*Terceira section*/
+/* Terceira section */
 
 .container__descrição {
     padding: 2em;
@@ -110,3 +110,25 @@ body {
     margin-top: 1em;
 }
 
+/* Quinta section */
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;  
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
